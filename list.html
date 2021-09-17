@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="list.css">
+	<script src="list.js"></script>
+	<style>
+		body{
+          counter-reset: Serial;
+        }
+        tr td:first-child:before{
+          counter-increment: Serial;
+          content: counter(Serial);
+        }
+	</style>
+</head>
+<body onload="Myfn()">
+	<input type="button" onclick="homefn()" name="home" value="Home">
+	<input type="button" onclick="billfn()" name="bill" value="Bill"><br><br>
+	<table id="fruitsList"> 
+			<tr>
+				<th>S.no</th>
+				<th>Item lists</th>
+				<th>Price</th>
+			</tr>
+			<tbody id="body"></tbody>
+	</table>
+</body>
+</html> 

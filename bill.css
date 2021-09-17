@@ -1,0 +1,106 @@
+*{
+   margin: auto;
+   box-sizing: border-box;
+}
+body{
+   margin: 30px 10px 30px 180px;
+}
+
+select{
+   padding: 9px 10px 9px 15px;
+}
+
+label[for="price"]{
+   margin-left: 50px;
+   margin-right: 10px;
+}
+
+#quantity{
+   margin-right: 15px;
+   outline: solid;
+   outline-width: 1px;
+   border-radius: 2px;
+}
+
+#bill {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: -1px;
+  width: 87%;
+}
+
+#bill td, #bill th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#bill th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: black;
+  font-size: 13px;
+}
+
+td{
+   font-size: 13px;
+   font-weight: bold;
+}
+
+#quantity{
+   border-radius: 2px;
+   margin-left: 3px;
+   border-width: 0px;
+   font-size: 14px;
+   padding: 8px;
+   width: 180px;
+   margin-left: -5px;
+
+}
+
+input[name="add"]{
+   font-size: 13px;
+   margin-left: 20px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: royalblue;
+   border-radius: 4px;
+   border: none;
+   border-color: royalblue;
+   color: white;
+}
+
+input[name="home"]{
+   font-size: 13px;
+   margin-left:20px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: green;
+   border-color: green;
+   border-radius: 4px;
+   border: none;
+   color: white;
+}
+
+input[name="list"]{
+   font-size: 13px;
+   padding: 8.5px 40px 8.5px 40px;
+   margin-left: 20px;
+   background-color: #00C8FF;
+   border-radius: 4px;
+   border: none;
+   color: white;
+}
+
+p{
+   font-size: 14px;
+}
+
+input[name="print"]{
+   font-size: 13px;
+   margin-right: -150px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: #00C8FF;
+   border-radius: 4px;
+   border: none;
+   color: white;
+}

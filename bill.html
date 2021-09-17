@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bill.css">
+	<script src="bill.js"></script>
+</head>
+<body onload="myfn()">
+	<select id="variety">
+ 	</select>
+	<label for="price">Quantity:</label>
+	<input type="text" id="quantity" name="quantity" placeholder="Enter Quantity">
+	<input type="button" name="add" onclick="addfn()" value="Add">
+	<input type="button" name="home" onclick="homefn()" value="Home">
+	<input type="button" name="list" onclick="listfn()" value="List"><br><br><br>
+	<table id="bill">
+			<tr>
+			<th>Item lists</th>
+			<th>Quantity</th>
+			<th>Price</th>
+		    </tr>
+		<tbody id="body">	
+		</tbody>
+		    <tr>
+		    <td></td>
+			<td><label for="Price">Total Amount:</label></td>
+			<td><input type="text" id="amount" name="amount"></td>
+		    </tr>
+	</table><br>
+	<p>*Given all list item's prices are fixed</p>
+</body>
+</html> 

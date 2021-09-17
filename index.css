@@ -1,0 +1,60 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('bgp.jpg');
+	margin: 370px 10px 10px 160px;
+}
+
+#frname{
+	border-radius: 2px;
+	border-width: 0px;
+	font-size: 14px;
+	padding: 8px;
+	width: 180px;
+	margin-left: -5px;
+
+}
+
+#price{
+	border-radius: 2px;
+	margin-left: 3px;
+	border-width: 0px;
+	font-size: 14px;
+	padding: 8px;
+	width: 180px;
+	margin-left: -5px;
+
+}
+
+input[name="add"]{
+   font-size: 13px;
+   margin-left: 40px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: royalblue;
+   border-radius: 4px;
+   border: none;
+   border-color: royalblue;
+   color: white;
+}
+
+input[name="bill"]{
+   font-size: 13px;
+   margin-left: 730px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: green;
+   border-color: green;
+   border-radius: 4px;
+   border: none;
+   color: white;
+}
+
+input[name="list"]{
+   font-size: 13px;
+   padding: 8.5px 40px 8.5px 40px;
+   background-color: #00C8FF;
+   border-radius: 4px;
+   border: none;
+   color: white;
+}
